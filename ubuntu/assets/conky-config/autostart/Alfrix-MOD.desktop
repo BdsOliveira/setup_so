@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Conky Config Alfrix-MOD.
+GenericName=Conky
+Comment=Conky config Alfrix-MOD.
+Categories=Utility;
+Type=Application
+Exec=sh -c '/home/$USER/.config/conky/Alfirk-MOD/start.sh'
+Icon=conky
+Terminal=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Hidden=false
+Name[en_US]=Alfrix-MOD.desktop
+Comment[en_US]=Conky config Alfrix-MOD
+X-GNOME-Autostart-Delay=3
