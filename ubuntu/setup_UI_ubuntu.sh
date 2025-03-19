@@ -9,7 +9,7 @@ gdebi \
 nautilus-admin \
 nautilus-extension-gnome-terminal \
 sassc \
-prload \
+preload \
 gnome-tweaks \
 gnome-shell-extension-manager -y
 
