@@ -21,8 +21,8 @@ nvm current # Should print "v22.14.0".
 # Verify npm version:
 npm -v # Should print "10.9.2".
 
-# Install Yarn
-npm install --global yarn
-
 # Atualiza o bash
 source ~/.bashrc
+
+# Install Yarn
+npm install --global yarn
