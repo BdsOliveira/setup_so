@@ -15,3 +15,8 @@ gnome-shell-extension-manager -y
 
 # Install Gnome extensions
 unzip -o ./ubuntu/assets/gnome-extensions.zip -d $HOME/.local/share/gnome-shell/
+
+#install flatpak
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
