@@ -29,3 +29,6 @@ sudo mv composer.phar /usr/local/bin/composer
 composer global config bin-dir --absolute
 
 echo 'export PATH="$PATH:/home/$USER/.config/composer/vendor/bin"' >> ~/.bashrc
+
+# Atualiza o bash
+source ~/.bashrc
