@@ -3,6 +3,7 @@
 echo "alias update='sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y'" >> ~/.bash_aliases
 echo "alias cu='composer update'" >> ~/.bash_aliases
 echo "alias cda='composer dumpautoload'" >> ~/.bash_aliases
+echo "alias pa='php artisan'" >> ~/.bash_aliases
 echo "alias pas='php artisan serve'" >> ~/.bash_aliases
 echo "alias pam='php artisan migrate'" >> ~/.bash_aliases
 echo "alias pams='php artisan migrate --seed'" >> ~/.bash_aliases
