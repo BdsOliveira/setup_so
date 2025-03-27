@@ -13,5 +13,19 @@ echo "alias n22='nvm use 22'" >> ~/.bash_aliases
 echo "alias y='yarn'" >> ~/.bash_aliases
 echo "alias ys='yarn serve'" >> ~/.bash_aliases
 
+# isntall zsh
+sudo apt install zsh
+
+# Adiona o zsh como shell padrão do usuário
+chsh -s $(which zsh)
+
+# Install OhMyZsh
+sh -c "$(curl -fsSL https://install.ohmyzsh.sh/)"
+
+# Add into ~/.bashrc
+# if [ -f ~/.bash_aliases ]; then
+#     . ~/.bash_aliases
+# fi
+
 source ~/.bash_aliases
 source ~/.bashrc
