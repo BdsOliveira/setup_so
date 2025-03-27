@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "alias update='sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y'" >> ~/.bash_aliases
+echo "alias up='sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y'" >> ~/.bash_aliases
 echo "alias cu='composer update'" >> ~/.bash_aliases
 echo "alias cda='composer dumpautoload'" >> ~/.bash_aliases
 echo "alias pa='php artisan'" >> ~/.bash_aliases
