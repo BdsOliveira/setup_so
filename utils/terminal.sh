@@ -12,6 +12,7 @@ echo "alias n16='nvm use 16'" >> ~/.bash_aliases
 echo "alias n22='nvm use 22'" >> ~/.bash_aliases
 echo "alias y='yarn'" >> ~/.bash_aliases
 echo "alias ys='yarn serve'" >> ~/.bash_aliases
+echo "alias gpush='git push origin \$(git branch --show-current)'" >> ~/.bash_aliases
 
 # isntall zsh
 sudo apt install zsh
