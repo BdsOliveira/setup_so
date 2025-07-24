@@ -9,11 +9,11 @@ sudo apt update
 
 sudo apt-get --purge remove php7.4-common
 sudo apt-get install php7.4 php7.4-fpm php7.4-cli -y
-sudo apt-get install php7.4-common php7.4-mysql php7.4-mbstring php7.4-xml php7.4-gd php7.4-curl php7.4-intl php7.4-zip php7.4-sqlite3 php7.4-dom php7.4-imagick php7.4-bcmath -y
+sudo apt-get install php7.4-common php7.4-mysql php7.4-pgsql php7.4-mbstring php7.4-xml php7.4-gd php7.4-curl php7.4-intl php7.4-zip php7.4-sqlite3 php7.4-dom php7.4-imagick php7.4-bcmath -y
 
 sudo apt-get --purge remove php8.4-common
 sudo apt-get install php8.4 php8.4-fpm php8.4-cli -y
-sudo apt-get install php8.4-common php8.4-mysql php8.4-mbstring php8.4-xml php8.4-gd php8.4-curl php8.4-intl php8.4-zip php8.4-sqlite3 php8.4-dom php8.4-imagick php8.4-bcmath -y
+sudo apt-get install php8.4-common php8.4-mysql php8.4-pgsql php8.4-mbstring php8.4-xml php8.4-gd php8.4-curl php8.4-intl php8.4-zip php8.4-sqlite3 php8.4-dom php8.4-imagick php8.4-bcmath -y
 
 echo "alias phpv='sudo update-alternatives --config php'" >> ~/.bash_aliases
 echo "alias php74='sudo update-alternatives --set php /usr/bin/php7.4'" >> ~/.bash_aliases
