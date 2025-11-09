@@ -30,7 +30,7 @@ sudo apt install zsh
 chsh -s $(which zsh)
 
 # Install OhMyZsh
-sh -c "$(curl -fsSL https://install.ohmyzsh.sh/)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Add into ~/.bashrc
 # if [ -f ~/.bash_aliases ]; then
