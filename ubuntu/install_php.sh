@@ -15,9 +15,14 @@ sudo apt-get --purge remove php8.4-common
 sudo apt-get install php8.4 php8.4-fpm php8.4-cli -y
 sudo apt-get install php8.4-common php8.4-mysql php8.4-pgsql php8.4-mbstring php8.4-simplexml php8.4-xml php8.4-gd php8.4-curl php8.4-intl php8.4-zip php8.4-sqlite3 php8.4-dom php8.4-imagick php8.4-bcmath -y
 
+sudo apt-get --purge remove php8.5-common
+sudo apt-get install php8.5 php8.5-fpm php8.5-cli -y
+sudo apt-get install php8.5-common php8.5-mysql php8.5-pgsql php8.5-mbstring php8.5-simplexml php8.5-xml php8.5-gd php8.5-curl php8.5-intl php8.5-zip php8.5-sqlite3 php8.5-dom php8.5-imagick php8.5-bcmath -y
+
 echo "alias phpv='sudo update-alternatives --config php'" >> ~/.bash_aliases
 echo "alias php74='sudo update-alternatives --set php /usr/bin/php7.4'" >> ~/.bash_aliases
 echo "alias php84='sudo update-alternatives --set php /usr/bin/php8.4'" >> ~/.bash_aliases
+echo "alias php85='sudo update-alternatives --set php /usr/bin/php8.5'" >> ~/.bash_aliases
 
 # Composer Installation
 
